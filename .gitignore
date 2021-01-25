@@ -4,3 +4,6 @@ externals/
 [Bb]uild/
 [Dd]ebug/
 [Rr]elease/
+.settings
+.project
+.cproject
