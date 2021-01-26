@@ -10,6 +10,7 @@ option (STATIC_BUILD "Build Planet Blupi statically" ON)
 option (EMSCRIPTEN "Build Planet Blupi for emscripten toolchain" OFF)
 option (ASMJS "Build for asm.js instead of WebAssembly (slower)" OFF)
 option (OGG "Include OGG music" OFF)
+option (MIDI "Include MIDI music" ON)
 option (MOVIE "Include video files" OFF)
 
 if (EMSCRIPTEN)
