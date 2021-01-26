@@ -805,6 +805,9 @@ ExternalProject_Add (planetblupi_Project
              -DCMAKE_INSTALL_PREFIX:PATH=<INSTALL_DIR>
              -DPB_HTTP_VERSION_CHECK=${HAS_CURL}
              -DSTATIC_BUILD=${STATIC_BUILD}
+			 -DOGG=${OGG}
+			 -DMIDI=${MIDI}
+			 -DMOVIE=${MOVIE}
              -DSIGN_APP=${SIGN_APP}
              -DEMSCRIPTEN_FLAGS=${EMSCRIPTEN_FLAGS}
              -DBUILD_JS=${BUILD_JS}
